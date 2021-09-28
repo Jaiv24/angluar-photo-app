@@ -16,7 +16,9 @@ const routes: Routes = [
   { path: 'albums', component: MyAlbumsComponent },
   { path: 'create', component: CreateAlbumsComponent },
   { path: 'upload/:albumId', component: UploadPictureComponent },
+  { path: '', redirectTo: '/albums/recent', pathMatch: 'full' },
   { path: 'photo/:photoId', component: PhotoDetailsComponent },
+  { path: '**', component: ProfileComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

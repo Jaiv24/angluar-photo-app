@@ -5,12 +5,12 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyD3pSTbkL8pFLEAWDxEyrSZECEYIUZ9ocY',
-    authDomain: 'angular-photo-application.firebaseapp.com',
-    projectId: 'angular-photo-application',
-    storageBucket: 'angular-photo-application.appspot.com',
-    messagingSenderId: '11343804085',
-    appId: '1:11343804085:web:fcac88b7dfcb9e00beb0fc',
+    apiKey: 'AIzaSyCyFQS00gRIvh4WYtZRlEFGNh7MkfFUSPg',
+    authDomain: 'backend-spring21-34dde.firebaseapp.com',
+    projectId: 'backend-spring21-34dde',
+    storageBucket: 'backend-spring21-34dde.appspot.com',
+    messagingSenderId: '616810947007',
+    appId: '1:616810947007:web:0c6d3e983c1528e252810a',
   },
 };
 
